@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orb Hunter</title>
+    <style>
+    .lil-gui .controller.simSize input[type="number"] {
+      display: none;
+    }
+    .lil-gui .controller.simSize {
+      outline: none !important;
+    }
+    .lil-gui {
+      position: absolute;
+      font-size: 14px;
+      font-family: monospace;
+      width: 100px;
+      padding: 5px;
+      border-radius: 3px;
+      background-color: rgba(200, 200, 200, 0.1);
+      color: lavender;
+      top: 10px;
+      left: 20px;
+      margin: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .lil-gui .controller.boolean .widget {
+      display: flex;
+      justify-content: flex-end; /* pushes children (the checkbox) to the right */
+      align-items: center;
+    }
+    .lil-gui .controller.option .widget {
+      display: flex;
+      justify-content: flex-end; /* pushes children (the checkbox) to the right */
+      align-items: center;
+    }
+    #time-log {
+      position: absolute;
+      font-size: 20px;
+      font-family: monospace;
+      padding: 5px;
+      border-radius: 3px;
+      background-color: rgba(200, 200, 200, 0.1);
+      color: lavender;
+      bottom: 10px;
+      left: 20px;
+      margin: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #camera-position-log {
+      position: absolute;
+      font-size: 20px;
+      font-family: monospace;
+      padding: 5px;
+      border-radius: 3px;
+      background-color: rgba(200, 200, 200, 0.1);
+      color: lavender;
+      bottom: 75px;
+      left: 20px;
+      margin: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+</style>
+    <script type="module" crossorigin src="/assets/index-BanTi_lm.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DlUoFnDX.css">
+  </head>
+  <body">
+    <div id="gui"></div>
+    <div id="disabled-camera-position-log"></div>
+    <div id="time-log"></div>
+    <div id="config"></div>
+    <div id="configcelestrak"></div>
+    <div id="configdisplay"></div>
+    <div id="configlocation"></div>
+    <div id="configdragdrop"></div>
+  </body>
+</html>
