@@ -54,6 +54,23 @@
       padding-top: 5px;
       padding-bottom: 5px;
     }
+    #target-info {
+      visibility: hidden;
+      position: absolute;
+      font-size: 20px;
+      font-family: monospace;
+      padding: 5px;
+      border-radius: 3px;
+      background-color: rgba(200, 200, 200, 0.1);
+      color: lavender;
+      bottom: 120px;
+      left: 20px;
+      margin: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
     #camera-position-log {
       position: absolute;
       font-size: 20px;
@@ -71,18 +88,20 @@
       padding-bottom: 5px;
     }
 </style>
-    <script type="module" crossorigin src="./assets/index-Bcu7IilY.js"></script>
+    <script type="module" crossorigin src="./assets/index-C5DVX6iM.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-DEA79L57.css">
   </head>
   <body">
     <div id="gui"></div>
     <div id="disabled-camera-position-log"></div>
     <div id="time-log"></div>
+    <div id="target-info">ISS (ZARYA)<br/>Azm: 320 Elev: 02</div>
     <div id="config"></div>
     <div id="configcelestrak"></div>
     <div id="configdisplay"></div>
     <div id="configlocation"></div>
     <div id="configdragdrop"></div>
     <div id="configcredits"></div>
+    <canvas id="overlay" style="position:absolute; top:0; left:0;"></canvas>
   </body>
 </html>
