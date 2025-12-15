@@ -99,6 +99,14 @@
       font-family: monospace;       /* optional font styling */
       color: grey;              /* text color */
     }
+    .rounded-box-grn {
+      border: 6px solid green;   /* thickness + color of the box */
+      border-radius: 10px;          /* how round the corners are */
+      padding: 10px;                /* space between text and border */
+      background-color: rgba(200, 200, 200, 0.1); /* optional background */
+      font-family: monospace;       /* optional font styling */
+      color: grey;              /* text color */
+    }
     #target-info {
       visibility: hidden;
       position: absolute;
@@ -133,7 +141,7 @@
       padding-bottom: 5px;
     }
 </style>
-    <script type="module" crossorigin src="./assets/index-C6CuLsFX.js"></script>
+    <script type="module" crossorigin src="./assets/index-CzdEwWsq.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-eBJ9l252.css">
   </head>
   <body">
@@ -144,7 +152,7 @@
       <div id="time-control">
         <span id="button-jumpback" class="rounded-box-grey" title="Jump back 30 seconds">⏮</span>
         <span id="button-stepback" class="rounded-box-grey" title="Step back 5 seconds">◀</span>
-        <span id="button-pause" class="rounded-box" title="Pause">⏸</span>
+        <span id="button-pause" class="rounded-box-grn" title="Pause">⏸</span>
         <span id="button-stepforward" class="rounded-box-grey" title="Step forward 5 seconds">▶</span>
         <span id="button-jumpforward" class="rounded-box-grey" title="Jump forward 30 seconds">⏭</span>
        </div>
