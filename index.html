@@ -9,11 +9,14 @@
     .lil-gui .controller.simSize input[type="number"] {
       display: none;
     }
+    .lil-gui.root {
+      width: 300px;
+    }
     .lil-gui {
       position: absolute;
       font-size: 14px;
       font-family: monospace;
-      width: 100px;
+      width: 200px;
       padding: 5px;
       border-radius: 3px;
       background-color: rgba(200, 200, 200, 0.1);
@@ -26,10 +29,20 @@
       padding-top: 5px;
       padding-bottom: 5px;
     }
+    .lil-gui .controller .boolean {
+      padding-right: 20px;
+    }
+    .lil-gui .controller.number .widget {
+      display: flex;
+      justify-content: flex-end; /* pushes children (the checkbox) to the right */
+      align-items: center;
+      padding-left: 10px;
+    }
     .lil-gui .controller.boolean .widget {
       display: flex;
       justify-content: flex-end; /* pushes children (the checkbox) to the right */
       align-items: center;
+      padding-left: 20px;
     }
     .lil-gui .controller.option .widget {
       display: flex;
@@ -142,7 +155,7 @@
       padding-bottom: 5px;
     }
 </style>
-    <script type="module" crossorigin src="./assets/index-q0n1OLH8.js"></script>
+    <script type="module" crossorigin src="./assets/index-k_-wBx3n.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-eBJ9l252.css">
   </head>
   <body">
